@@ -1,5 +1,7 @@
 package gmt
 
-func Create() string {
-	return "Version 1.0.0"
+import "fmt"
+
+func Create(debug bool) string {
+	return fmt.Sprintf("Version 1.0.0: debug %v", debug)
 }
