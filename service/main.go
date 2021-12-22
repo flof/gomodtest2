@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/flof/gomodtest2/sdk/gmt/v3"
+	gmt "github.com/flof/gomodtest2/sdk/gmt/v3"
 )
 
 func main() {
