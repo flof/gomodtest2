@@ -2,6 +2,6 @@ package gmt
 
 import "fmt"
 
-func Create(debug bool) string {
-	return fmt.Sprintf("Version 2.0.2: debug %v", debug)
+func Create(debug, verbose bool) string {
+	return fmt.Sprintf("Version 3.0.0: debug %v, verbose: %v", debug, verbose)
 }
