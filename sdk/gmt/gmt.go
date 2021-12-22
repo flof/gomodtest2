@@ -1,7 +1,7 @@
-package v3
+package gmt
 
 import "fmt"
 
 func Create() string {
-	return fmt.Sprintf("Version 1.0.10")
+	return fmt.Sprintf("Version 1.0.11")
 }
